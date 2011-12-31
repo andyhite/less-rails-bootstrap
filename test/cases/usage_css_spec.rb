@@ -8,13 +8,22 @@ class UsageCssSpec < Less::Rails::Bootstrap::Spec
     
     it 'will render main bootstrap.less file and all included modules' do
       app_css.must_include 'Bootstrap @VERSION',          'From boostrap.less'
-      app_css.must_include 'Forms.less',                  'From forms.less'
-      app_css.must_include 'Snippets of reusable CSS',    'From mixins.less'
-      app_css.must_include 'Patterns.less',               'From patterns.less'
-      app_css.must_include 'Scaffolding',                 'From scaffolding.less'
-      app_css.must_include 'Tables.less',                 'From tables.less'
-      app_css.must_include 'Typography.less',             'From type.less'
-      app_css.must_include 'Variables.less',              'From variables.less'
+      # app_css.must_include 'Reset.less',                  'From reset.less'
+
+
+      # app_css.must_include 'Forms',                  'From forms.less'
+      # app_css.must_include 'Snippets of reusable CSS',    'From mixins.less'
+      # app_css.must_include 'Patterns',               'From patterns.less'
+      # app_css.must_include 'Scaffolding',                 'From scaffolding.less'
+      # app_css.must_include 'Tables',                 'From tables.less'
+      # app_css.must_include 'Tabs and Pills',              'From tab-pills.less'
+      # app_css.must_include 'TWIPSY',                      'From twipsy.less'
+      # app_css.must_include 'Typography.less',             'From type.less'
+      # app_css.must_include 'THUMBNAILS',                  'From thumbails.less'
+      # app_css.must_include 'PAGINATION',                  'From pagination.less'
+
+      # app_css.must_include 'Responsive.less',              'From responsive.less'
+      # app_css.must_include 'Variables.less',              'From variables.less'
     end
     
     it 'must include basic css afterward' do

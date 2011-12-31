@@ -1,2 +1,2 @@
-//= require twitter/bootstrap/modal
+//= require twitter/bootstrap/bootstrap-modal
 
