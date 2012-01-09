@@ -9,3 +9,4 @@
 //= require twitter/bootstrap/bootstrap-tab
 //= require twitter/bootstrap/bootstrap-transition
 //= require twitter/bootstrap/bootstrap-twipsy
+//= require twitter/bootstrap/bootstrap-typeahead
